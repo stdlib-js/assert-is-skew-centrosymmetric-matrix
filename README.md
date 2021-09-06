@@ -100,6 +100,24 @@ out = isSkewCentrosymmetricMatrix( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-centrosymmetric-matrix`][@stdlib/assert/is-centrosymmetric-matrix]: test if a value is a centrosymmetric matrix.
+-   [`@stdlib/assert/is-matrix-like`][@stdlib/assert/is-matrix-like]: test if a value is a 2-dimensional ndarray-like object.
+-   [`@stdlib/assert/is-skew-symmetric-matrix`][@stdlib/assert/is-skew-symmetric-matrix]: test if a value is a skew-symmetric matrix.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -156,6 +174,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-skew-centrosymmetric-matrix/main/LICENSE
 
 [centrosymmetric-matrix]: https://en.wikipedia.org/wiki/Centrosymmetric_matrix
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-centrosymmetric-matrix]: https://github.com/stdlib-js/assert-is-centrosymmetric-matrix
+
+[@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert-is-matrix-like
+
+[@stdlib/assert/is-skew-symmetric-matrix]: https://github.com/stdlib-js/assert-is-skew-symmetric-matrix
+
+<!-- </related-links> -->
 
 </section>
 
