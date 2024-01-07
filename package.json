@@ -39,7 +39,8 @@
   "dependencies": {
     "@stdlib/assert-is-square-matrix": "^0.1.0",
     "@stdlib/math-base-assert-is-odd": "^0.1.0",
-    "@stdlib/math-base-special-floor": "^0.1.1"
+    "@stdlib/math-base-special-floor": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.1.1",
