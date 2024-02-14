@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import isSkewCentrosymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-centrosymmetric-matrix@deno/mod.js';
+import isSkewCentrosymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-centrosymmetric-matrix@v0.2.0-deno/mod.js';
 ```
 
 #### isSkewCentrosymmetricMatrix( value )
@@ -83,7 +83,7 @@ var bool = isSkewCentrosymmetricMatrix( arr );
 
 ```javascript
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
-import isSkewCentrosymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-centrosymmetric-matrix@deno/mod.js';
+import isSkewCentrosymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-centrosymmetric-matrix@v0.2.0-deno/mod.js';
 
 var arr = ndarray( 'generic', [ 2, 1, -1, -2 ], [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
 var out = isSkewCentrosymmetricMatrix( arr );
