@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import isSkewCentrosymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-centrosymmetric-matrix@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-skew-centrosymmetric-matrix/tags). For example,
+
+```javascript
 import isSkewCentrosymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-centrosymmetric-matrix@v0.2.1-deno/mod.js';
 ```
 
@@ -83,7 +88,7 @@ var bool = isSkewCentrosymmetricMatrix( arr );
 
 ```javascript
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
-import isSkewCentrosymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-centrosymmetric-matrix@v0.2.1-deno/mod.js';
+import isSkewCentrosymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-centrosymmetric-matrix@deno/mod.js';
 
 var arr = ndarray( 'generic', [ 2, 1, -1, -2 ], [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
 var out = isSkewCentrosymmetricMatrix( arr );
